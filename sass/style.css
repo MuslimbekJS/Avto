@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.conteiner {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.conteiner .card {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.conteiner .card .content {
+  display: flex;
+  padding: 5px 10px;
+  align-items: center;
+}
+.conteiner .card .content a {
+  text-decoration: none;
+  color: black;
+}
+.conteiner .card p {
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: "Rubik Doodle Shadow", system-ui;
+}
+.conteiner .card:hover {
+  box-shadow: 0px 0px 5px 3px deepskyblue;
+  transition: 0.5s;
+  z-index: -1;
+}
+.conteiner h1 {
+  font-size: 64px;
+  font-family: "Bungee Spice", sans-serif;
+}
+
+footer {
+  margin-top: 100px;
+}
+footer img {
+  margin-right: 20px;
+  width: 24px;
+  height: 24px;
+}
+footer img:hover {
+  transition: 0.5s;
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=style.css.map */
