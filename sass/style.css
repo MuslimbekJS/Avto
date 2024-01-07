@@ -1,20 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Noto Serif JP", serif;
+}
+
+a {
   cursor: pointer;
 }
 
+body {
+  background-image: url(/images/08.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 .conteiner {
-  width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.conteiner .cont img {
+  width: 100%;
+}
+.conteiner .cont a {
   display: flex;
   justify-content: center;
 }
 .conteiner .card {
-  background-color: white;
-  border-radius: 20px;
+  background-color: #163d74;
   display: flex;
   align-items: center;
   margin-top: 20px;
@@ -26,7 +45,7 @@
 }
 .conteiner .card .content a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .conteiner .card p {
   margin-left: 5px;
@@ -38,10 +57,14 @@
   box-shadow: 0px 0px 5px 3px deepskyblue;
   transition: 0.5s;
   z-index: -1;
+  transform: scale(1.25);
 }
 .conteiner h1 {
-  font-size: 64px;
-  font-family: "Bungee Spice", sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 footer {
