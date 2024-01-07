@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&family=Ubuntu:wght@500&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     // cursor: pointer;
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Ubuntu', sans-serif;
     
 }
 
@@ -28,6 +29,7 @@ body{
     display: flex;
     justify-content: center;
     // align-items: center;
+    // align-items: center;
 
     .cont{
         img{
@@ -43,26 +45,32 @@ body{
         
 
     .card {
-        // width: 150%;
+        // max-width: 100%;
         // border: 1px solid black;
         background-color: #163D74FF;
         // border-radius: 20px;
-        display: flex;
-        align-items: center;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
         margin-top: 20px;
         
         .content{
             display: flex;
-            padding: 5px 10px;
+            padding: 10px 10px;
+            // justify-content: center;
             align-items: center;
             a{
                 text-decoration: none;
                 color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
             }
         }
 
         p {
-            // padding-left: 2rem;
+            // padding-left: 0rem;
             margin-left: 5px;
             font-size: 15px;
             font-weight: bolder;
@@ -102,20 +110,3 @@ body{
 
 
 // Adds a margin-top to the footer
-footer {
-    margin-top: 100px;
-
-    // Specifies styles for the img inside the footer
-    img {
-        margin-right: 20px;
-        width: 24px;
-        height: 24px;
-    }
-
-    // Adds a transition to the img on hover
-    img:hover {
-        transition: 0.5s;
-        width: 30px;
-        height: 30px;
-    }
-}

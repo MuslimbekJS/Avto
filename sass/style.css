@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&family=Ubuntu:wght@500&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Noto Serif JP", serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 a {
@@ -34,18 +35,19 @@ body {
 }
 .conteiner .card {
   background-color: #163d74;
-  display: flex;
-  align-items: center;
   margin-top: 20px;
 }
 .conteiner .card .content {
   display: flex;
-  padding: 5px 10px;
+  padding: 10px 10px;
   align-items: center;
 }
 .conteiner .card .content a {
   text-decoration: none;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .conteiner .card p {
   margin-left: 5px;
@@ -65,18 +67,4 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-}
-
-footer {
-  margin-top: 100px;
-}
-footer img {
-  margin-right: 20px;
-  width: 24px;
-  height: 24px;
-}
-footer img:hover {
-  transition: 0.5s;
-  width: 30px;
-  height: 30px;
 }/*# sourceMappingURL=style.css.map */
